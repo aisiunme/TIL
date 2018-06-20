@@ -13,5 +13,5 @@
     > docker attach 컨테이너ID
 
 5. 폴더를 마운트해서 실행
-    > docker run -i -t -v /c/Work/Pycharm/PythonMachineLearning:/sample mlearn:init /bin/bash
+    'docker run -i -t -v /c/Work/Pycharm/PythonMachineLearning:/sample mlearn:init /bin/bash'
     
