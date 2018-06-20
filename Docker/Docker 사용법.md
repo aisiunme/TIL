@@ -10,7 +10,7 @@
     <pre><code>docker ps</code></pre>
 
 4. 실행 중인 컨테이너로 돌아가기
-    <pre><code>docker attach 컨테이너ID</code></pre>
+    <pre><code>docker attach containerID</code></pre>
 
 5. 폴더를 마운트해서 실행
     <pre><code>docker run -i -t -v /c/Work/Pycharm/PythonMachineLearning:/sample mlearn:init /bin/bash</code></pre>
