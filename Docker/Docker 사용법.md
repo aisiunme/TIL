@@ -1,10 +1,9 @@
 ## Docker 사용법
 
 1. 컨테이너 실행
-
-<pre><code>
+    <pre><code>
     docker run -i -t mlearn:init /bin/bash
-</code></pre>
+    </code></pre>
     
 2. 컨테이너에서 일시적으로 나오기
     > CTRL + P, Q
