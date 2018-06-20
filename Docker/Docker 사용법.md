@@ -13,9 +13,8 @@ CTRL + P, Q
 '''
 
 3. 실행 중인 컨테이너 프로세스 확인하기
-'''
-docker ps
-'''
+> docker ps
+
 4. 실행 중인 컨테이너로 돌아가기
 '''
 docker attach 컨테이너ID
