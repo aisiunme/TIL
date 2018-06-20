@@ -1,13 +1,13 @@
 ## Docker 사용법
 
 1. 컨테이너 실행
-    '''
+    '
     docker run -i -t mlearn:init /bin/bash
-    '''
+    '
 2. 컨테이너에서 일시적으로 나오기
-'''
+'
 CTRL + P, Q
-'''
+'
 3. 실행 중인 컨테이너 프로세스 확인하기
 '''
 docker ps
