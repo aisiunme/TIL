@@ -6,6 +6,7 @@
     docker run -i -t mlearn:init /bin/bash
     '
 2. 컨테이너에서 일시적으로 나오기
+
 '
 CTRL + P, Q
 '
