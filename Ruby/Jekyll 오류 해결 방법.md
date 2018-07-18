@@ -1,5 +1,5 @@
-## Jekyll을 사용한 Github page 생성
-### Jekyll 구동시 오류 발생 :anger:
+## Jekyll을 사용한 Github page 생성시
+### Jekyll 구동 오류 발생 :anger:
 ```
 jekyll server
 ```
