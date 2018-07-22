@@ -44,15 +44,14 @@ jekyll 3.7.3 | Error:  Invalid CP949 character "\xE2" on line 54
 ```
 ---
 ### 해결 방안
-> 윈도우에서의 Jekyll에 관한 이슈
-
+윈도우에서의 Jekyll에 관한 이슈
 > 만약 UTF-8 인코딩을 사용한다면, 문서 안에 BOM 헤더를 사용하지 않아야 합니다.\
 > 그렇지 않으면 Jekyll 에 아주, 아주 안 좋은 일이 벌어집니다.\
 > 이는 특히, 윈도우즈에서 Jekyll을 사용하는 것에 연관된 문제입니다.\
 > 그리고, 사이트 생성 단계에서 “Liquid Exception: Incompatible character encoding” 에러가 발생하는 경우엔,\
 > 콘솔창의 코드 페이지를 UTF-8 로 바꿔야 할 수도 있습니다.\
 > 콘솔창에 다음과 같이 입력하면 됩니다:
-```terminal
+```
 chcp 65001
 ```
 > 콘솔창 화면이 Active code page: 65001로 넘어가면서 다시 jekyll을 구동시키면 정상적으로 동작함!\
