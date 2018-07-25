@@ -1,7 +1,7 @@
 ## Jekyll을 이용한 Github page 생성시
 ### Jekyll 구동 오류 발생 :anger:
 ```
-jekyll server
+jekyll serve
 ```
 > 이 명령을 통해 jekyll이 내장하고 있는 서버를 동작시키고 이를 로컬 PC에서 확인할 수 있다. (localhost:4000)\
 > 하지만 오류 발생! :boom:
@@ -24,7 +24,7 @@ C:/Programs/Ruby24-x64/lib/ruby/gems/2.4.0/gems/bundler-1.16.3/lib/bundler/runti
 ```
 ---
 ```
-bundle exec jekyll server
+bundle exec jekyll serve
 ```
 > 해결책 발견!!\
 > 번들러는 Ruby에서 필요한 정확한 gem과 버전을 추적하고 설치하여 루비 프로젝트를 위한 일관된 환경을 제공합니다.\
